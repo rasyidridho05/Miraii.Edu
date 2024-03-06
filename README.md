@@ -1,4 +1,3 @@
-# p5
 
 🎉 Congratulations, your project was successfully generated with [Create Next Stack](https://www.create-next-stack.com/)!
 
