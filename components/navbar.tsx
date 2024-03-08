@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#1C1C1C] border-none w-full md:static md:text-sm fixed">
+    <nav className="bg-[#1C1C1C] border-none w-full  md:text-sm fixed z-10">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-1 md:py-2 md:block">
           <Link className="flex items-center" href="/">

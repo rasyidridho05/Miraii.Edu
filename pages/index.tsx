@@ -9,9 +9,11 @@ const Index: NextPage = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Game />
-      <Creator />
+      <main>
+        <Hero />
+        <Game />
+        <Creator />
+      </main>
       <Footer />
     </>
   );
