@@ -2,20 +2,32 @@ import { GameType } from "@/type/game";
 
 export const projects: GameType[] = [
   {
-    thumbnail: "petualanganksatria.jpg",
-    title: "Petualangan Ksatria",
+    thumbnail: "corona.png",
+    title: "Game Corona",
     desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village. ",
-    link: "https://jeanmeme.itch.io/petualangan-ksatria",
+    link: "https://jeanmeme.itch.io/game-corona",
   },
   {
-    thumbnail: "petualanganksatria.jpg",
-    title: "Petualangan Ksatria",
+    thumbnail: "basket.png",
+    title: "Basket The Waste",
     desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village.",
-    link: "https://jeanmeme.itch.io/petualangan-ksatria",
+    link: "https://jeanmeme.itch.io/basket-the-waste",
+  },
+  {
+    thumbnail: "jetpack.png",
+    title: "Jetpack Math",
+    desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village.",
+    link: "https://jeanmeme.itch.io/jetpack-math",
+  },
+  {
+    thumbnail: "city.png",
+    title: "Dream City",
+    desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village.",
+    link: "https://jeanmeme.itch.io/dream-city",
   },
   {
     thumbnail: "petualanganksatria.jpg",
-    title: "Petualangan Ksatria",
+    title: "Quiz Game",
     desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village.",
     link: "https://jeanmeme.itch.io/petualangan-ksatria",
   },
