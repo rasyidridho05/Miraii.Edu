@@ -10,10 +10,12 @@ const Profile = ({
   name,
   position,
   linkedin,
+  username,
   instagram,
+  title,
 }: CreatorType) => {
   return (
-    <div className="col-span-6 col-start-2 sm:col-span-4 md:col-span-3 bg-none rounded-xl p-4 group">
+    <div className="col-span-6 col-start-2 sm:col-span-4 md:col-span-3 bg-none rounded-xl p-4 group bg-Azure600">
       <div className="h-[260px] w-full relative rounded-t-lg overflow-hidden">
         <Image
           src={`/images/creator/${photo}`}
@@ -24,36 +26,37 @@ const Profile = ({
           objectFit="cover"
           quality={100}
         />
+        <div className="bg-white blur-sm"/>
       </div>
-      <div className="bg-gray-900 p-4 justify-between rounded-b-lg">
-        <div className="pb-4 border-b-slate-400 border-b">
-          <h1 className="text-xl font-medium mb-1 text-slate-200 text-center h-[48px]">
+      <div className="p-2 justify-between rounded-b-lg">
+        <div className="pb-4 border-b-blue-300 border-b">
+          <h1 className="text-xl font-semibold mb-1 text-white text-left">
             {name}
           </h1>
-          <p className="font-normal text-sm leading-5 md:text-base text-slate-300 text-center">
+          <p className="font-normal text-sm leading-5 md:text-base text-blue-200 text-left">
             {position}
           </p>
         </div>
-        <div className="pt-4 flex gap-2 w-full justify-center">
+        <div className="pt-4 flex flex-col gap-2 w-full justify-center">
           {instagram && (
             <Link
               href={`${instagram}`}
               target="_blank"
-              className="hover:text-gray-400 transition-all duration-300 hover:scale-110 text-2xl"
+              className="hover:text-white text-blue-200 transition-all duration-300 "
             >
-              <p className="items-center text-sm">
-                <LiaInstagram size={28} />
+              <p className="items-center text-base flex gap-1 ">
+                <LiaInstagram size={28} /> {username}
               </p>
             </Link>
-          )}
+          )} 
           {linkedin && (
             <Link
               href={`${linkedin}`}
               target="_blank"
-              className="hover:text-gray-400 transition-all duration-300 hover:scale-110 text-2xl"
+              className="hover:text-white text-blue-200 transition-all duration-300 "
             >
-              <p className="items-center text-sm">
-                <LiaLinkedin size={28} />
+              <p className="items-center text-base flex gap-1">
+                <LiaLinkedin size={28} /> {title}
               </p>
             </Link>
           )}

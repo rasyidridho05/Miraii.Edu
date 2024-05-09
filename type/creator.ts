@@ -3,5 +3,7 @@ export type CreatorType = {
   name: string;
   position: string;
   instagram: string;
+  username: string;
   linkedin?: string;
+  title?: string;
 };

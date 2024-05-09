@@ -22,7 +22,7 @@ const Navbar = () => {
   const navigation = [
     { title: "Home", path: "/", id: "home" },
     { title: "Game", path: "/#game", id: "game" },
-    { title: "Creator", path: "/#creator", id: "creator" },
+    { title: "Contact Us", path: "/#creator", id: "creator" },
   ];
 
   const scrollTo = (id: string): void => {
@@ -40,12 +40,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#1C1C1C] border-none w-full  md:text-sm fixed z-10">
+    <nav className=" border-none w-full  md:text-sm py-4">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-1 md:py-2 md:block">
           <Link className="flex items-center" href="/">
-            <Image src="/images/Logo.webp" width={64} height={64} alt="logo" />
-            <h1 className=" text-xl">PPPPP</h1>
+            <h1 className=" text-xl">MIRAII.EDU</h1>
           </Link>
           <div className="md:hidden">
             <button

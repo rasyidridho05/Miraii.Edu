@@ -26,9 +26,15 @@ export const projects: GameType[] = [
     link: "https://jeanmeme.itch.io/dream-city",
   },
   {
-    thumbnail: "petualanganksatria.jpg",
-    title: "Quiz Game",
+    thumbnail: "quiz.png",
+    title: "Quiz For You",
     desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village.",
-    link: "https://jeanmeme.itch.io/petualangan-ksatria",
+    link: "https://jeanmeme.itch.io/quiz-for-you",
+  },
+  {
+    thumbnail: "imroatus.png",
+    title: "Imroatus",
+    desc: "Petualangan Ksatria is a 2D pixel art roguelike RPG game where players have to fight against monsters to protect the village.",
+    link: "https://jeanmeme.itch.io/imroatus",
   },
 ];
