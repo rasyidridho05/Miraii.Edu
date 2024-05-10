@@ -48,7 +48,7 @@ const Navbar = () => {
           </Link>
           <div className="md:hidden">
             <button
-              className="text-white hover:text-gray-400 transition-all transform duration-300"
+              className="text-blue-100 hover:text-white transition-all transform duration-300"
               onClick={() => setState(!state)}
             >
               {state ? (
@@ -93,7 +93,7 @@ const Navbar = () => {
               return (
                 <li
                   key={idx}
-                  className="text-white hover:text-gray-400 transition-all transform duration-300"
+                  className="text-blue-100 hover:text-white transition-all transform duration-300"
                 >
                   {" "}
                   <motion.div
