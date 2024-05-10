@@ -16,7 +16,7 @@ const End = () => {
           objectFit="cover"
           priority
         />
-        <div className="absolute w-full h-full top-2/3 left-1/4 transform -translate-x-1/4 -translate-y-2/3 bg-gradient-to-b from-transparent to-black z-5 opacity-5" />
+        <div className="absolute w-full h-full top-2/3 left-1/4 transform -translate-x-1/4 -translate-y-2/3 bg-gradient-to-b from-transparent to-black z-5 opacity-20" />
         <div className="absolute top-1/2 left-1/4 transform -translate-x-1/4 -translate-y-2/3 text-white z-10 flex flex-col gap-4 w-3/5 ">
           <div className="lg:text-6xl font-bold leading-none md:text-xl">
             Saatnya Giliranmu!
